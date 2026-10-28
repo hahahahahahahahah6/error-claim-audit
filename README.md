@@ -7,7 +7,7 @@ Install with `pip install .`, then run:
 
 ```sh
 error-claim-audit path/to/project --json
-python -m error_claim_audit path/to/project --verbose
+python3 -m error_claim_audit path/to/project --verbose
 ```
 
 The tool exits 0 for PASS, exits 2 for FAIL, and exits 1 for usage or input
